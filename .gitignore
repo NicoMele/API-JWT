@@ -1,0 +1,64 @@
+# Compilación
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# Archivos de usuario y settings de Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDEs varios
+.idea/
+.vscode/
+*.code-workspace
+
+# Paquetes descargados (si usás NuGet en modo "packages")
+packages/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.swn
+
+# Archivos de configuración local
+appsettings.Development.json
+secrets.json
+
+# Entity Framework user secrets
+*.sqlite
+*.mdf
+*.ldf
+
+# Docker (si tenés Dockerfile o volúmenes)
+**/docker-compose.override.yml
+**/docker-compose.*
+**/.docker/
+
+# Test output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# Rider (si usás JetBrains Rider)
+.idea/
+*.sln.iml
+
+# Archivos de publish
+publish/
